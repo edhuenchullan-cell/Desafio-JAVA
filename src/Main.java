@@ -23,6 +23,9 @@ public class Main {
         Estudiante estudianteUno = new Estudiante(nombre, carrera, edad);
         estudianteUno.mostrarInformacion();
 
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Procesando estudiante " + i);}
+
         if (edad < 18) {
             System.out.println("Estudiante menor de edad.");
         } else if (edad < 25) {
@@ -30,7 +33,6 @@ public class Main {
         } else {
             System.out.println("Estudiante viejo.");
         }
-
 
     }
 }
