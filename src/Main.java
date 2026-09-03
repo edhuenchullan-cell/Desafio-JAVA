@@ -33,6 +33,24 @@ public class Main {
         } else {
             System.out.println("Estudiante viejo.");
         }
+        int opcion = 4;
+        while (opcion != 3) {
 
+            System.out.println("=== SISTEMA DUOC ===");
+            System.out.println("1. Mostrar estado");
+            System.out.println("2. Procesar operación");
+            System.out.println("3. Salir");
+
+            System.out.print("Seleccione una opción: ");
+            opcion = scanner.nextInt();
+
+            if (opcion == 1) {
+                System.out.println("Estado disponible.");
+            } else if (opcion == 2) {
+                System.out.println("Procesando operación...");
+            } else if (opcion == 3) {
+                System.out.println("Finalizando programa");
+            }
+        }
     }
 }
